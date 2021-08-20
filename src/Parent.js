@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import { Child } from './Child';
-import { Sibling } from './Sibling';
+import { Child } from './child';
+import { Sibling } from './sibling';
 
 // export class Parent extends React.Component {
 //   constructor(props) {

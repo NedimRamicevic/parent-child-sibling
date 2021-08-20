@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 // export class Child extends React.Component {
 //   constructor(props) {
@@ -30,12 +30,12 @@ import React, {useState} from 'react';
 
 
 
-export function Child(onChange){
+export function Child(props){
 
     
   const handleChange = (e)=> {
     const name = e.target.value;
-    onChange(name);
+    props.onChange(name);
   }
 
   return (
