@@ -38,9 +38,7 @@ export function Parent(){
 
     return (
         <div>
-          <Child 
-            name={name} 
-            onChange={changeName} />
+          <Child onChange={changeName} />
           <Sibling name={name} />
         </div>
       )
