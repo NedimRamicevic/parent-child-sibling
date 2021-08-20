@@ -30,12 +30,12 @@ import React, {useState} from 'react';
 
 
 
-export function Child(){
+export function Child(onChange){
 
     
   const handleChange = (e)=> {
     const name = e.target.value;
-    this.props.onChange(name);
+    onChange(name);
   }
 
   return (
